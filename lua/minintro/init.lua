@@ -53,7 +53,7 @@ local intro_logo = {
 local PLUGIN_NAME = "minintro"
 local DEFAULT_COLOR = "#98c379"
 local INTRO_LOGO_HEIGHT = #intro_logo
-local INTRO_LOGO_WIDTH = 55
+local INTRO_LOGO_WIDTH = 134
 
 local autocmd_group = vim.api.nvim_create_augroup(PLUGIN_NAME, {})
 local highlight_ns_id = vim.api.nvim_create_namespace(PLUGIN_NAME)
